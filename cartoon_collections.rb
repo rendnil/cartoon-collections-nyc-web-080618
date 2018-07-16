@@ -33,18 +33,23 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  cheese_included = [ ]
-    array.each do |element|
-      if cheese_types.include?(element) == true
-        cheese_included.push(element)
-      end
-    end
+  #cheese_included = [ ]
+    #array.each do |element|
+     # if cheese_types.include?(element) == true
+      #  cheese_included.push(element)
+      #end
+    #end
     
     
-  if cheese_included.size == 0
-    nil
-  else
-    cheese_included.join()
+  #if cheese_included.size == 0
+    #nil
+  #else
+    #cheese_included.join()
     
-   end
+   #end
+   
+   
+   
+   
+   
 end
